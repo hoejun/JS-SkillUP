@@ -10,7 +10,7 @@ const ProfileInfo = (props) => {
   return (
     <div className='contact-list'>
       <ul>
-        {props.data.map((item, index) => {
+        {props.data.forEach((item, index) => {
           if (item.name.indexOf(props.inputValue) === -1) {
             return;
           }
