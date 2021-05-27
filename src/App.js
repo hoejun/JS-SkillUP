@@ -6,6 +6,7 @@ import Information from './components/Information';
 import './App.css';
 
 function App() {
+  //ㅇㄹ
   const [data, setData] = useState([]);
   const [inputValue, setInputValue] = useState('');
   const [infoList, setInfoList] = useState([]);
